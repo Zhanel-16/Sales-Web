@@ -9,7 +9,10 @@
 
         <div class="logos">
           <img src="/images/VMV.png" alt="Sales">
-          <img src="/images/VMV.png" alt="Viajes">
+          <a href="https://www.marvalencia.com/">
+            <img src="/images/VMV.png" alt="Viajes">
+          </a>
+          
         </div>
         <nav class="menu">
           <a href="#">INICIO</a>
@@ -81,9 +84,10 @@
   padding: 0
   box-sizing: border-box
 
-body
-  font-family: Arial, sans-serif
-  background: #0f1020
+// body
+//   font-family: Arial, sans-serif
+//   background: #0f1020
+  
 
 .app
   min-height: 100vh
@@ -144,8 +148,10 @@ main
   margin-bottom: 35px
 
 .footer-card
-  background: rgba(255,255,255,0.05)
-  backdrop-filter: blur(10px)
+  background: rgba(27, 27, 58, 0.85)
+  backdrop-filter: blur(6px)
+  -webkit-backdrop-filter: blur(6px)
+  transform: translateZ(0)
   border: 1px solid rgba(255,255,255,0.08)
   border-radius: 16px
   padding: 28px
